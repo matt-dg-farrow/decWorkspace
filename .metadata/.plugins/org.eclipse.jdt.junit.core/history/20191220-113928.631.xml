@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CustControllerTest (1)" project="Kayak-Project" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.bae.restTest.CustControllerTest" time="0.078" displayname="CustControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]">
+    <testcase name="deleteCustomer" classname="com.bae.restTest.CustControllerTest" time="0.032" displayname="deleteCustomer" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:deleteCustomer(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="deleteAllTest" classname="com.bae.restTest.CustControllerTest" time="0.0" displayname="deleteAllTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:deleteAllTest(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="getCustomersTest" classname="com.bae.restTest.CustControllerTest" time="0.015" displayname="getCustomersTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:getCustomersTest(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="updateCustTest" classname="com.bae.restTest.CustControllerTest" time="0.016" displayname="updateCustTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:updateCustTest(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="createCustTest" classname="com.bae.restTest.CustControllerTest" time="0.015" displayname="createCustTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:createCustTest(com.bae.restTest.CustControllerTest)]"/>
+  </testsuite>
+</testrun>

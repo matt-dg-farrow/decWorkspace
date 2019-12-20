@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EquipControllerTest" project="Kayak-Project" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.bae.restTest.EquipControllerTest" time="0.062" displayname="EquipControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]">
+    <testcase name="updateEquipTest" classname="com.bae.restTest.EquipControllerTest" time="0.047" displayname="updateEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:updateEquipTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="deleteAllTest" classname="com.bae.restTest.EquipControllerTest" time="0.0" displayname="deleteAllTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:deleteAllTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="createEquipTest" classname="com.bae.restTest.EquipControllerTest" time="0.015" displayname="createEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:createEquipTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="getEquipmentTest" classname="com.bae.restTest.EquipControllerTest" time="0.0" displayname="getEquipmentTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:getEquipmentTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="deleteEquipment" classname="com.bae.restTest.EquipControllerTest" time="0.0" displayname="deleteEquipment" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:deleteEquipment(com.bae.restTest.EquipControllerTest)]"/>
+  </testsuite>
+</testrun>

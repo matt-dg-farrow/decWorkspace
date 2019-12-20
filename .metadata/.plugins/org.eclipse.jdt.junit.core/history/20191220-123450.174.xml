@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookingServiceTest" project="Kayak-Project" tests="22" started="22" failures="0" errors="0" ignored="0">
+  <testsuite name="com.bae.serviceTest.EquipmentServiceTest" time="0.218" displayname="EquipmentServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]">
+    <testcase name="updateEquipTest" classname="com.bae.serviceTest.EquipmentServiceTest" time="0.078" displayname="updateEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]/[test:updateEquipTest(com.bae.serviceTest.EquipmentServiceTest)]"/>
+    <testcase name="deleteAllTest" classname="com.bae.serviceTest.EquipmentServiceTest" time="0.0" displayname="deleteAllTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]/[test:deleteAllTest(com.bae.serviceTest.EquipmentServiceTest)]"/>
+    <testcase name="readEquipTest" classname="com.bae.serviceTest.EquipmentServiceTest" time="0.031" displayname="readEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]/[test:readEquipTest(com.bae.serviceTest.EquipmentServiceTest)]"/>
+    <testcase name="createEquipTest" classname="com.bae.serviceTest.EquipmentServiceTest" time="0.016" displayname="createEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]/[test:createEquipTest(com.bae.serviceTest.EquipmentServiceTest)]"/>
+    <testcase name="deleteEquipTest" classname="com.bae.serviceTest.EquipmentServiceTest" time="0.093" displayname="deleteEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]/[test:deleteEquipTest(com.bae.serviceTest.EquipmentServiceTest)]"/>
+  </testsuite>
+  <testsuite name="com.bae.serviceTest.CustomerServiceTest" time="0.094" displayname="CustomerServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]">
+    <testcase name="createCustomerTest" classname="com.bae.serviceTest.CustomerServiceTest" time="0.016" displayname="createCustomerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]/[test:createCustomerTest(com.bae.serviceTest.CustomerServiceTest)]"/>
+    <testcase name="deleteAllTest" classname="com.bae.serviceTest.CustomerServiceTest" time="0.016" displayname="deleteAllTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]/[test:deleteAllTest(com.bae.serviceTest.CustomerServiceTest)]"/>
+    <testcase name="deleteCustomerTest" classname="com.bae.serviceTest.CustomerServiceTest" time="0.0" displayname="deleteCustomerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]/[test:deleteCustomerTest(com.bae.serviceTest.CustomerServiceTest)]"/>
+    <testcase name="updateCustomerTest" classname="com.bae.serviceTest.CustomerServiceTest" time="0.015" displayname="updateCustomerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]/[test:updateCustomerTest(com.bae.serviceTest.CustomerServiceTest)]"/>
+    <testcase name="getCustomersTest" classname="com.bae.serviceTest.CustomerServiceTest" time="0.047" displayname="getCustomersTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]/[test:getCustomersTest(com.bae.serviceTest.CustomerServiceTest)]"/>
+  </testsuite>
+  <testsuite name="com.bae.entitiesTest.CustomerTest" time="0.016" displayname="CustomerTest" uniqueid="[engine:junit-jupiter]/[class:com.bae.entitiesTest.CustomerTest]">
+    <testcase name="customerTest" classname="com.bae.entitiesTest.CustomerTest" time="0.016" displayname="customerTest()" uniqueid="[engine:junit-jupiter]/[class:com.bae.entitiesTest.CustomerTest]/[method:customerTest()]"/>
+  </testsuite>
+  <testsuite name="com.bae.entitiesTest.EquipmentTest" time="0.031" displayname="EquipmentTest" uniqueid="[engine:junit-jupiter]/[class:com.bae.entitiesTest.EquipmentTest]">
+    <testcase name="equipTest" classname="com.bae.entitiesTest.EquipmentTest" time="0.031" displayname="equipTest()" uniqueid="[engine:junit-jupiter]/[class:com.bae.entitiesTest.EquipmentTest]/[method:equipTest()]"/>
+  </testsuite>
+  <testsuite name="com.bae.restTest.EquipControllerTest" time="0.11" displayname="EquipControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]">
+    <testcase name="updateEquipTest" classname="com.bae.restTest.EquipControllerTest" time="0.016" displayname="updateEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:updateEquipTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="deleteAllTest" classname="com.bae.restTest.EquipControllerTest" time="0.0" displayname="deleteAllTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:deleteAllTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="createEquipTest" classname="com.bae.restTest.EquipControllerTest" time="0.015" displayname="createEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:createEquipTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="getEquipmentTest" classname="com.bae.restTest.EquipControllerTest" time="0.016" displayname="getEquipmentTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:getEquipmentTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="deleteEquipment" classname="com.bae.restTest.EquipControllerTest" time="0.063" displayname="deleteEquipment" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:deleteEquipment(com.bae.restTest.EquipControllerTest)]"/>
+  </testsuite>
+  <testsuite name="com.bae.restTest.CustControllerTest" time="0.031" displayname="CustControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]">
+    <testcase name="deleteCustomer" classname="com.bae.restTest.CustControllerTest" time="0.0" displayname="deleteCustomer" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:deleteCustomer(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="deleteAllTest" classname="com.bae.restTest.CustControllerTest" time="0.015" displayname="deleteAllTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:deleteAllTest(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="getCustomersTest" classname="com.bae.restTest.CustControllerTest" time="0.0" displayname="getCustomersTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:getCustomersTest(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="updateCustTest" classname="com.bae.restTest.CustControllerTest" time="0.016" displayname="updateCustTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:updateCustTest(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="createCustTest" classname="com.bae.restTest.CustControllerTest" time="0.0" displayname="createCustTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:createCustTest(com.bae.restTest.CustControllerTest)]"/>
+  </testsuite>
+</testrun>

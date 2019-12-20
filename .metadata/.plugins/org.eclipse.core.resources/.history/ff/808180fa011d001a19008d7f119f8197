@@ -1,0 +1,19 @@
+package com.bae.entitiesTest;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.bae.persistence.domain.Equipment;
+
+class EquipmentTest {
+
+	@Test
+	void equipTest() {
+		Equipment equip1 = new Equipment("Kayak", 60);
+		
+		assertEquals("Kayak", equip1.getEquipType());
+		assertEquals(60, equip1.getPrice());
+	}
+
+}

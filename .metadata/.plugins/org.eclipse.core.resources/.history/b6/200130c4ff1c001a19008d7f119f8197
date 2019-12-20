@@ -1,0 +1,18 @@
+package com.bae.entitiesTest;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.text.DecimalFormat;
+
+import org.junit.jupiter.api.Test;
+
+class BookingTest {
+
+	@Test
+	void test() {
+		DecimalFormat df = new DecimalFormat("000000");	
+		String num1;
+		num1 = df.format(20);
+	
+
+}

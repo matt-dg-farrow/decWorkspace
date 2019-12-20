@@ -1,0 +1,44 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LandingPage {
+	
+public static final String URL = "http://automationpractice.com/index.php";
+	
+	//this will be useful for testing own front-end of project, it may be slower and more bulky to create a class for each page, but it is more readable.
+	//on this note, a class MUST be created for each page being used.
+	
+	private WebDriver driver;
+	
+	@FindBy(id = "search_query_top")
+	private WebElement searchbar;
+	
+	@FindBy(xpath = "//*[@id=\"center_column\"]/ul/li[3]/div/div[1]/div/a[1]/img")
+	private WebElement dressImage;
+	
+	@FindBy(xpath = "//*[@id=\"add_to_cart\"]/button")
+	private WebElement cartButton;
+	
+	public LandingPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void search(String searchText) {
+		searchbar.sendKeys(searchText);
+		searchbar.submit();
+	}
+	
+	public void pickDress() {
+		dressImage.click();
+	}
+	
+	public void addToCart() {
+		cartButton.click();
+	}
+//	search_query form-control ac_input
+}

@@ -1,0 +1,28 @@
+package com.bae.service;
+
+import java.util.List;
+
+import com.bae.persistence.domain.Customer;
+import com.bae.persistence.repo.EquipmentRepo;
+
+public class EquipmentService {
+	
+private EquipmentRepo equipRepo;
+	
+    public Customer createCust(Customer customer) {
+		return null;
+    
+    }
+    public List<Customer> readCustomers() {
+    	return null;
+    }
+
+    public Customer updateCustomer(Customer cust, Long id) {
+    	return null;
+    }
+
+    public void deleteCustomer(Long id) {
+
+    }
+
+}

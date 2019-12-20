@@ -1,0 +1,23 @@
+1576073036880	Copy compilation unit
+1576073560531	Copy package
+1576073616249	Move compilation unit
+1576073622673	Delete element
+1576140954505	Rename package 'EntitiesTests'
+1576140966925	Rename package 'com.qa.app'
+1576140996314	Rename package 'com.qa'
+1576141045535	Rename package 'com.bae'
+1576141071484	Rename package 'com.qa'
+1576141118757	Rename type 'BookingsTest'
+1576170054970	Rename field 'contactNumber'
+1576171078599	Rename method 'getContactNumber'
+1576171084930	Rename method 'setContactNumber'
+1576226994292	Delete element
+1576226999148	Delete element
+1576227000312	Delete element
+1576227001405	Delete element
+1576231747829	Copy compilation units
+1576231757504	Rename type 'BookingService'
+1576231770925	Rename type 'CustomerService'
+1576231777175	Rename type 'EquipmentService'
+1576236365097	Rename local variable 'u'
+1576239466789	Rename local variable 'customers'

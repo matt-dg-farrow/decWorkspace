@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EquipControllerTest" project="Kayak-Project" tests="23" started="23" failures="0" errors="1" ignored="0">
+  <testsuite name="com.bae.serviceTest.EquipmentServiceTest" time="0.376" displayname="EquipmentServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]">
+    <testcase name="updateEquipTest" classname="com.bae.serviceTest.EquipmentServiceTest" time="0.157" displayname="updateEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]/[test:updateEquipTest(com.bae.serviceTest.EquipmentServiceTest)]"/>
+    <testcase name="deleteAllTest" classname="com.bae.serviceTest.EquipmentServiceTest" time="0.015" displayname="deleteAllTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]/[test:deleteAllTest(com.bae.serviceTest.EquipmentServiceTest)]"/>
+    <testcase name="readEquipTest" classname="com.bae.serviceTest.EquipmentServiceTest" time="0.032" displayname="readEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]/[test:readEquipTest(com.bae.serviceTest.EquipmentServiceTest)]"/>
+    <testcase name="createEquipTest" classname="com.bae.serviceTest.EquipmentServiceTest" time="0.062" displayname="createEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]/[test:createEquipTest(com.bae.serviceTest.EquipmentServiceTest)]"/>
+    <testcase name="deleteEquipTest" classname="com.bae.serviceTest.EquipmentServiceTest" time="0.11" displayname="deleteEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.EquipmentServiceTest]/[test:deleteEquipTest(com.bae.serviceTest.EquipmentServiceTest)]"/>
+  </testsuite>
+  <testsuite name="com.bae.serviceTest.CustomerServiceTest" time="0.187" displayname="CustomerServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]">
+    <testcase name="createCustomerTest" classname="com.bae.serviceTest.CustomerServiceTest" time="0.015" displayname="createCustomerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]/[test:createCustomerTest(com.bae.serviceTest.CustomerServiceTest)]"/>
+    <testcase name="deleteAllTest" classname="com.bae.serviceTest.CustomerServiceTest" time="0.016" displayname="deleteAllTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]/[test:deleteAllTest(com.bae.serviceTest.CustomerServiceTest)]"/>
+    <testcase name="deleteCustomerTest" classname="com.bae.serviceTest.CustomerServiceTest" time="0.0" displayname="deleteCustomerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]/[test:deleteCustomerTest(com.bae.serviceTest.CustomerServiceTest)]"/>
+    <testcase name="updateCustomerTest" classname="com.bae.serviceTest.CustomerServiceTest" time="0.015" displayname="updateCustomerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]/[test:updateCustomerTest(com.bae.serviceTest.CustomerServiceTest)]"/>
+    <testcase name="getCustomersTest" classname="com.bae.serviceTest.CustomerServiceTest" time="0.141" displayname="getCustomersTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.serviceTest.CustomerServiceTest]/[test:getCustomersTest(com.bae.serviceTest.CustomerServiceTest)]"/>
+  </testsuite>
+  <testsuite name="com.bae.entitiesTest.CustomerTest" time="0.031" displayname="CustomerTest" uniqueid="[engine:junit-jupiter]/[class:com.bae.entitiesTest.CustomerTest]">
+    <testcase name="customerTest" classname="com.bae.entitiesTest.CustomerTest" time="0.031" displayname="customerTest()" uniqueid="[engine:junit-jupiter]/[class:com.bae.entitiesTest.CustomerTest]/[method:customerTest()]"/>
+  </testsuite>
+  <testsuite name="com.bae.entitiesTest.EquipmentTest" time="4.219" displayname="EquipmentTest" uniqueid="[engine:junit-jupiter]/[class:com.bae.entitiesTest.EquipmentTest]">
+    <testcase name="equipTest" classname="com.bae.entitiesTest.EquipmentTest" time="4.219" displayname="equipTest()" uniqueid="[engine:junit-jupiter]/[class:com.bae.entitiesTest.EquipmentTest]/[method:equipTest()]"/>
+  </testsuite>
+  <testsuite name="com.bae.app.KayakProjectApplicationTests" time="0.0" displayname="KayakProjectApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.bae.app.KayakProjectApplicationTests]">
+    <testcase name="contextLoads" classname="com.bae.app.KayakProjectApplicationTests" time="0.0" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.bae.app.KayakProjectApplicationTests]/[method:contextLoads()]">
+      <error>java.lang.IllegalStateException: Failed to load ApplicationContext&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)&#13;
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)&#13;
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)&#13;
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)&#13;
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)&#13;
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)&#13;
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)&#13;
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)&#13;
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)&#13;
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)&#13;
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)&#13;
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)&#13;
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)&#13;
+	at java.util.Optional.orElseGet(Unknown Source)&#13;
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)&#13;
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)&#13;
+	at java.util.ArrayList.forEach(Unknown Source)&#13;
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)&#13;
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)&#13;
+	at java.util.ArrayList.forEach(Unknown Source)&#13;
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)&#13;
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)&#13;
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)&#13;
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)&#13;
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:137)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookingController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.bae.rest.BookingController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]&#13;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1286)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)&#13;
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)&#13;
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)&#13;
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)&#13;
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)&#13;
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)&#13;
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)&#13;
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)&#13;
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)&#13;
+	... 65 more&#13;
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.bae.rest.BookingController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]&#13;
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)&#13;
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)&#13;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)&#13;
+	... 82 more&#13;
+Caused by: java.lang.NoClassDefFoundError: Booking&#13;
+	at java.lang.Class.getDeclaredMethods0(Native Method)&#13;
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source)&#13;
+	at java.lang.Class.getDeclaredMethods(Unknown Source)&#13;
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)&#13;
+	... 84 more&#13;
+Caused by: java.lang.ClassNotFoundException: Booking&#13;
+	at java.net.URLClassLoader.findClass(Unknown Source)&#13;
+	at java.lang.ClassLoader.loadClass(Unknown Source)&#13;
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)&#13;
+	at java.lang.ClassLoader.loadClass(Unknown Source)&#13;
+	... 88 more&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+  <testsuite name="com.bae.restTest.EquipControllerTest" time="0.063" displayname="EquipControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]">
+    <testcase name="updateEquipTest" classname="com.bae.restTest.EquipControllerTest" time="0.016" displayname="updateEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:updateEquipTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="deleteAllTest" classname="com.bae.restTest.EquipControllerTest" time="0.0" displayname="deleteAllTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:deleteAllTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="createEquipTest" classname="com.bae.restTest.EquipControllerTest" time="0.0" displayname="createEquipTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:createEquipTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="getEquipmentTest" classname="com.bae.restTest.EquipControllerTest" time="0.016" displayname="getEquipmentTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:getEquipmentTest(com.bae.restTest.EquipControllerTest)]"/>
+    <testcase name="deleteEquipment" classname="com.bae.restTest.EquipControllerTest" time="0.031" displayname="deleteEquipment" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.EquipControllerTest]/[test:deleteEquipment(com.bae.restTest.EquipControllerTest)]"/>
+  </testsuite>
+  <testsuite name="com.bae.restTest.CustControllerTest" time="0.016" displayname="CustControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]">
+    <testcase name="deleteCustomer" classname="com.bae.restTest.CustControllerTest" time="0.0" displayname="deleteCustomer" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:deleteCustomer(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="deleteAllTest" classname="com.bae.restTest.CustControllerTest" time="0.0" displayname="deleteAllTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:deleteAllTest(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="getCustomersTest" classname="com.bae.restTest.CustControllerTest" time="0.0" displayname="getCustomersTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:getCustomersTest(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="updateCustTest" classname="com.bae.restTest.CustControllerTest" time="0.0" displayname="updateCustTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:updateCustTest(com.bae.restTest.CustControllerTest)]"/>
+    <testcase name="createCustTest" classname="com.bae.restTest.CustControllerTest" time="0.016" displayname="createCustTest" uniqueid="[engine:junit-vintage]/[runner:com.bae.restTest.CustControllerTest]/[test:createCustTest(com.bae.restTest.CustControllerTest)]"/>
+  </testsuite>
+</testrun>

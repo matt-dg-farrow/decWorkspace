@@ -1,0 +1,63 @@
+package shoppingTest;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import pages.CheckoutPage;
+import pages.LandingPage;
+
+public class DressTestPOM {
+	
+	WebDriver driver;
+
+	@Before
+	public void setup() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Desktop\\chromedriver.exe");
+		driver = new ChromeDriver();
+	}
+
+	@After
+	public void teardown() {
+		driver.quit();
+	}
+
+	@Test
+	public void testy2() throws InterruptedException {
+//		driver.manage().window().maximize();
+		driver.get(LandingPage.URL);
+		
+		LandingPage laPage = new LandingPage(driver);
+		CheckoutPage checkPage = new CheckoutPage(driver);
+		
+		laPage.search("dress");
+		laPage.pickDress();
+		checkPage.addToCart();
+		checkPage.checkout();
+
+		Thread.sleep(12000);
+//		assertEquals("Printed Summer Dress",
+//				this.driver
+//						.findElement(
+//								By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[1]/h2"))
+//						.getText());
+		
+
+//		
+//		Thread.sleep(6000);
+//		
+//		SearchPage sePage = new SearchPage(driver);
+//		
+//		String searched = sePage.searchedText();
+//		
+//		assertEquals( arg, searched);
+//		Thread.sleep(3000);
+
+	}
+
+}

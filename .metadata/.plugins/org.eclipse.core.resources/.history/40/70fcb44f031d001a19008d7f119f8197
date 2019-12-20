@@ -1,0 +1,19 @@
+package com.bae.entitiesTest;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.bae.persistence.domain.Customer;
+
+class CustomerTest {
+
+	@Test
+	void customerTest() {
+		Customer cust1 = new Customer();
+		
+		cust1.setContactNumber("07779123456");
+		
+	}
+
+}

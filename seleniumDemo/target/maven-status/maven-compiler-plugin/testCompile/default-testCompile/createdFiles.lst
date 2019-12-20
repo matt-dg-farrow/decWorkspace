@@ -1,0 +1,6 @@
+pages\CheckoutPage.class
+pages\ItemPage.class
+pages\LandingPage.class
+pages\PaymentPage.class
+shoppingTest\DressTestPOM.class
+autoTesting\GoogleTest.class

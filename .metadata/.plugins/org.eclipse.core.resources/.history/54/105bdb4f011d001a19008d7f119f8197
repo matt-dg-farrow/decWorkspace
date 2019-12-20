@@ -1,0 +1,217 @@
+package com.bae.persistence.domain;
+
+import java.text.DecimalFormat;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Customer {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column (name = "custId")
+	private Long id;
+	
+	private String custFirstName;
+	private String custSurname;
+	private String emergFirstName;
+	private String emergSurname;
+	private String emergContactNumber;
+	private String emergRelation;
+	
+	@OneToMany(mappedBy="customer")
+	private Set<Booking> bookings;
+	
+	DecimalFormat df = new DecimalFormat("00000000000");	
+
+	
+	public Customer() {
+		super();
+	}
+
+
+	public Customer(String custFirstName, String custSurname, String emergFirstName, String emergSurname,
+			Long contactNumber, String emergRelation, Booking...bookings) {
+		super();
+		this.custFirstName = custFirstName;
+		this.custSurname = custSurname;
+		this.emergFirstName = emergFirstName;
+		this.emergSurname = emergSurname;
+		this.emergContactNumber = df.format(contactNumber);
+		this.emergRelation = emergRelation;
+		this.bookings = Stream.of(bookings).collect(Collectors.toSet());
+		this.bookings.forEach(x -> x.setCustomer(this));
+	}
+
+
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", custFirstName=" + custFirstName + ", custSurname=" + custSurname
+				+ ", emergFirstName=" + emergFirstName + ", emergSurname=" + emergSurname + ", contactNumber="
+				+ emergContactNumber + ", emergRelation=" + emergRelation + ", bookings=" + bookings + "]";
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((bookings == null) ? 0 : bookings.hashCode());
+		result = prime * result + ((emergContactNumber == null) ? 0 : emergContactNumber.hashCode());
+		result = prime * result + ((custFirstName == null) ? 0 : custFirstName.hashCode());
+		result = prime * result + ((custSurname == null) ? 0 : custSurname.hashCode());
+		result = prime * result + ((df == null) ? 0 : df.hashCode());
+		result = prime * result + ((emergFirstName == null) ? 0 : emergFirstName.hashCode());
+		result = prime * result + ((emergRelation == null) ? 0 : emergRelation.hashCode());
+		result = prime * result + ((emergSurname == null) ? 0 : emergSurname.hashCode());
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		return result;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Customer other = (Customer) obj;
+		if (bookings == null) {
+			if (other.bookings != null)
+				return false;
+		} else if (!bookings.equals(other.bookings))
+			return false;
+		if (emergContactNumber == null) {
+			if (other.emergContactNumber != null)
+				return false;
+		} else if (!emergContactNumber.equals(other.emergContactNumber))
+			return false;
+		if (custFirstName == null) {
+			if (other.custFirstName != null)
+				return false;
+		} else if (!custFirstName.equals(other.custFirstName))
+			return false;
+		if (custSurname == null) {
+			if (other.custSurname != null)
+				return false;
+		} else if (!custSurname.equals(other.custSurname))
+			return false;
+		if (df == null) {
+			if (other.df != null)
+				return false;
+		} else if (!df.equals(other.df))
+			return false;
+		if (emergFirstName == null) {
+			if (other.emergFirstName != null)
+				return false;
+		} else if (!emergFirstName.equals(other.emergFirstName))
+			return false;
+		if (emergRelation == null) {
+			if (other.emergRelation != null)
+				return false;
+		} else if (!emergRelation.equals(other.emergRelation))
+			return false;
+		if (emergSurname == null) {
+			if (other.emergSurname != null)
+				return false;
+		} else if (!emergSurname.equals(other.emergSurname))
+			return false;
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
+		return true;
+	}
+
+
+	public Long getId() {
+		return id;
+	}
+
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+
+	public String getCustFirstName() {
+		return custFirstName;
+	}
+
+
+	public void setCustFirstName(String custFirstName) {
+		this.custFirstName = custFirstName;
+	}
+
+
+	public String getCustSurname() {
+		return custSurname;
+	}
+
+
+	public void setCustSurname(String custSurname) {
+		this.custSurname = custSurname;
+	}
+
+
+	public String getEmergFirstName() {
+		return emergFirstName;
+	}
+
+
+	public void setEmergFirstName(String emergFirstName) {
+		this.emergFirstName = emergFirstName;
+	}
+
+
+	public String getEmergSurname() {
+		return emergSurname;
+	}
+
+
+	public void setEmergSurname(String emergSurname) {
+		this.emergSurname = emergSurname;
+	}
+
+
+	public String getContactNumber() {
+		return emergContactNumber;
+	}
+
+
+	public void setContactNumber(Long contactNumber) {
+		this.emergContactNumber = df.format(contactNumber);
+	}
+
+
+	public String getEmergRelation() {
+		return emergRelation;
+	}
+
+
+	public void setEmergRelation(String emergRelation) {
+		this.emergRelation = emergRelation;
+	}
+
+
+	public Set<Booking> getBookings() {
+		return bookings;
+	}
+
+
+	public void setBookings(Set<Booking> bookings) {
+		this.bookings = bookings;
+	}
+
+	
+}

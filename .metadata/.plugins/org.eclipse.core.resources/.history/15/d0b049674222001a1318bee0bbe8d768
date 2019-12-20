@@ -1,0 +1,14 @@
+package autoTesting;
+
+public class GoogleTest {
+	
+	@Before
+	public void setup() {
+		
+	}
+
+	@After
+	public void tearDown() {
+		
+	}
+}

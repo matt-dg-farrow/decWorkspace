@@ -1,0 +1,28 @@
+package com.bae.service;
+
+import java.util.List;
+
+import com.bae.persistence.domain.Customer;
+import com.bae.persistence.repo.CustomerRepo;
+
+public class BookingService {
+	
+private BookingRepo custRepo;
+	
+    public Booking createBooking(Booking booking) {
+		return null;
+    
+    }
+    public List<Booking> readBookings() {
+    	return null;
+    }
+
+    public Booking updateBooking(Booking booking, Long id) {
+    	return null;
+    }
+
+    public void deleteBooking(Long id) {
+
+    }
+
+}
